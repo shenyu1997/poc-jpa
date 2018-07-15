@@ -1,0 +1,14 @@
+app:
+  name: poc
+  description: ${app.name} is poc project to verify spring boot
+
+
+jdbc:
+  url: jdbc:log4jdbc:h2:mem:test;MODE=MySql;DB_CLOSE_DELAY=-1
+
+yu:
+  port: 1001
+  server: host-address
+  roles:
+    - admin
+    - user

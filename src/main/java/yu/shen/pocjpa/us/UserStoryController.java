@@ -1,0 +1,20 @@
+package yu.shen.pocjpa.us;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import java.util.List;
+
+@RestController()
+public class UserStoryController {
+
+    @Autowired
+    private UserStoryService userStoryService;
+
+    @RequestMapping(path = "/user-storys")
+    public List<UserStory> findAll() {
+        return userStoryService.findAll();
+    }
+}
