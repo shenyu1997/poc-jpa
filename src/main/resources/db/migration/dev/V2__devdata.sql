@@ -1,0 +1,11 @@
+-- insert into foo (id, name, description, created_date, modified_date, version) values (1, 'foo1', 'this is test data',now(),now(),1);
+-- insert into foo (id, name, description, created_date, modified_date, version) values (2, 'foo2', 'this is test data',now(),now(),1);
+-- insert into foo (id, name, description, created_date, modified_date, version) values (3, 'foo3', 'this is test data',now(),now(),1);
+-- insert into foo (id, name, description, created_date, modified_date, version) values (4, 'foo4', 'this is test data',now(),now(),1);
+-- insert into foo (id, name, description, created_date, modified_date, version) values (5, 'foo5', 'this is test data',now(),now(),1);
+-- insert into foo (id, name, description, created_date, modified_date, version) values (6, 'foo6', 'this is test data',now(),now(),1);
+-- insert into foo (id, name, description, created_date, modified_date, version) values (7, 'foo7', 'this is test data',now(),now(),1);
+-- insert into foo (id, name, description, created_date, modified_date, version) values (8, 'foo8', 'this is test data',now(),now(),1);
+-- insert into foo (id, name, description, created_date, modified_date, version) values (9, 'foo9', 'this is test data',now(),now(),1);
+-- insert into foo (id, name, description, created_date, modified_date, version) values (10, 'foo10', 'this is test data',now(),now(),1);
+
