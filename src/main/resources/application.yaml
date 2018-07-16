@@ -12,3 +12,9 @@ yu:
   roles:
     - admin
     - user
+
+logging:
+  level:
+    root: WARN
+    org.springframework.web: DEBUG
+    org.hibernate: DEBUG
